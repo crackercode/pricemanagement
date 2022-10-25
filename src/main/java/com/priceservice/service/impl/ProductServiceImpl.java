@@ -13,7 +13,7 @@ import com.priceservice.service.ProductService;
 /**
  * The ProductServiceImpl class.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 @Service

@@ -3,7 +3,7 @@ package com.priceservice.exception;
 /**
  * The ProductNotFoundException class
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public class ProductNotFoundException extends RuntimeException {

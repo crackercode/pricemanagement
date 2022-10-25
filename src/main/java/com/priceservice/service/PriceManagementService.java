@@ -3,7 +3,7 @@ package com.priceservice.service;
 /**
  * The PriceManagementService interface.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public interface PriceManagementService {

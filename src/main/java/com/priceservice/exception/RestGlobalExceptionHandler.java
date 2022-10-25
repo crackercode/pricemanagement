@@ -14,7 +14,7 @@ import com.priceservice.dto.ResponseVO;
 /**
  * The RestGlobalExceptionHandler class
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 @Order(Ordered.HIGHEST_PRECEDENCE)

@@ -17,7 +17,7 @@ import com.priceservice.service.ProductService;
 /**
  * Price management service rest controller
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 @RestController

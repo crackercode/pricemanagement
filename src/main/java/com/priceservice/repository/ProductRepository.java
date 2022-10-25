@@ -7,7 +7,7 @@ import com.priceservice.model.Product;
 /**
  * The ProductRepository interface.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public interface ProductRepository extends JpaRepository<Product, Long> {

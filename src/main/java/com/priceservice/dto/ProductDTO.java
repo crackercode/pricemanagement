@@ -3,7 +3,7 @@ package com.priceservice.dto;
 /**
  * The Product Entity class.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 /**

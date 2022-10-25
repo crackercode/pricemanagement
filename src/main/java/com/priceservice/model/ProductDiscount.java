@@ -12,7 +12,7 @@ import javax.persistence.Table;
 /**
  * The ProductDiscount Entity class.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 @Entity

@@ -20,7 +20,7 @@ import com.priceservice.service.impl.PriceManagementServiceImpl;
 /**
  * The PriceManagementServiceTest class.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2020
  */
 @RunWith(MockitoJUnitRunner.class)

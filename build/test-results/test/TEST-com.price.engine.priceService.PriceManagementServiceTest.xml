@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.price.engine.priceService.PriceManagementServiceTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-25T10:43:49" hostname="DESKTOP-K297T4H" time="0.002">
+  <properties/>
+  <testcase name="initializationError0" classname="com.price.engine.priceService.PriceManagementServiceTest" time="0.002">
+    <failure message="org.mockito.exceptions.base.MockitoException: &#10;&#10;MockitoRunner can only be used with JUnit 4.5 or higher.&#10;You can upgrade your JUnit version or write your own Runner (please consider contributing your runner to the Mockito community).&#10;Bear in mind that you can still enjoy all features of the framework without using runners (they are completely optional).&#10;If you get this error despite using JUnit 4.5 or higher then please report this error to the mockito mailing list.&#10;" type="org.mockito.exceptions.base.MockitoException">org.mockito.exceptions.base.MockitoException: 
+
+MockitoRunner can only be used with JUnit 4.5 or higher.
+You can upgrade your JUnit version or write your own Runner (please consider contributing your runner to the Mockito community).
+Bear in mind that you can still enjoy all features of the framework without using runners (they are completely optional).
+If you get this error despite using JUnit 4.5 or higher then please report this error to the mockito mailing list.
+
+	at app//org.mockito.internal.runners.RunnerFactory.create(RunnerFactory.java:92)
+	at app//org.mockito.internal.runners.RunnerFactory.createStrict(RunnerFactory.java:42)
+	at app//org.mockito.junit.MockitoJUnitRunner.&lt;init&gt;(MockitoJUnitRunner.java:154)
+	at java.base@17.0.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.1/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.1/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.junit.internal.requests.ClassRequest.buildRunner(ClassRequest.java:33)
+	at app//org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:28)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:78)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy2/jdk.proxy2.$Proxy5.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.NoClassDefFoundError: org/junit/runners/BlockJUnit4ClassRunner
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at org.mockito.internal.runners.util.RunnerProvider.newInstance(RunnerProvider.java:18)
+	at org.mockito.internal.runners.RunnerFactory.create(RunnerFactory.java:77)
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: org.junit.runners.BlockJUnit4ClassRunner
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 36 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

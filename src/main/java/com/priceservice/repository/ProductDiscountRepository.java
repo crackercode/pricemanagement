@@ -7,7 +7,7 @@ import com.priceservice.model.ProductDiscount;
 /**
  * The ProductDiscountRepository interface.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public interface ProductDiscountRepository extends JpaRepository<ProductDiscount, Long> {

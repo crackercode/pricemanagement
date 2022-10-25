@@ -3,7 +3,7 @@ package com.priceservice.dto;
 /**
  * The ResponseVO class
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public class ResponseVO {

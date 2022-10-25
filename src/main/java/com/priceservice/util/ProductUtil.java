@@ -3,7 +3,7 @@ package com.priceservice.util;
 /**
  * The ProductUtil class.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public class ProductUtil {

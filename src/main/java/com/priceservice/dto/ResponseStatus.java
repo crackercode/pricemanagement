@@ -3,7 +3,7 @@ package com.priceservice.dto;
 /**
  * The ResponseStatus enum
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public enum ResponseStatus {

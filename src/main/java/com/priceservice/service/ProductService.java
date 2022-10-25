@@ -5,7 +5,7 @@ import com.priceservice.dto.ProductDTO;
 /**
  * The ProductService interface.
  * 
- * @author Chamara Kendaragama
+ * @author cracker
  * @since 2021
  */
 public interface ProductService {
